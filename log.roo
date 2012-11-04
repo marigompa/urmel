@@ -25,3 +25,7 @@ hint web mvc
 // [failed] selenium test --controller ~.web.TimerController
 selenium test --controller ~.web.UserEntityController
 perform tests
+perform package
+security setup
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-04 16:53:15
