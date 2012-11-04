@@ -1,0 +1,27 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-04 15:41:08
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-04 15:41:11
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-04 15:41:56
+download status
+download accept terms of use
+download status
+hint
+project --topLevelPackage de.insphere.urmel
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+hint
+// [failed] entity jpa --class ~.User --testAutomatically
+entity jpa --class ~.UserEntity --testAutomatically
+hint
+field string --fieldName userName --notNull
+hint field
+hint string
+hint
+help
+hint web mvc
+web mvc setup
+web mvc all --package ~.web
+hint
+hint web mvc
+// [failed] selenium test --controller ~.web.TimerController
+selenium test --controller ~.web.UserEntityController
+perform tests
